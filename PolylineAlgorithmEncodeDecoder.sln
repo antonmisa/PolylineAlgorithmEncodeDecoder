@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolylineAlgorithmEncodeDecoder", "PolylineAlgorithmEncodeDecoder\PolylineAlgorithmEncodeDecoder.csproj", "{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolylineAlgorithmEncodeDecoderTest", "PolylineAlgorithmEncodeDecoderUnitTest\PolylineAlgorithmEncodeDecoderTest.csproj", "{167705F0-978B-408F-AA0A-8C276F85D57E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B} = {69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B716B8-97C2-4D6D-A5EA-1B4C4DA6AA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167705F0-978B-408F-AA0A-8C276F85D57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167705F0-978B-408F-AA0A-8C276F85D57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167705F0-978B-408F-AA0A-8C276F85D57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167705F0-978B-408F-AA0A-8C276F85D57E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F976E0BC-E201-4C67-84CE-E765CDBDB3A6}
+	EndGlobalSection
+EndGlobal
